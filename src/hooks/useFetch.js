@@ -12,6 +12,7 @@ export const useFetch = (url) => {
 
 	useEffect(() => {
 		return () => {
+			// el return sólo se lanza cuando el component es desmontado
 			isMounted.current = false
 		}
 	}, [])
