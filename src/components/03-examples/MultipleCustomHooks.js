@@ -12,8 +12,8 @@ export const MultipleCustomHooks = () => {
 	const { author, quote } = Boolean(data) && data[0];		// utilzar !!null : transforma null a boolean, hace lo mismo que Boolean(null)
 
 	return (
-		<div>
-			<h1>Breakind Bad Quotes</h1>
+		<div className="p-1">
+			<h2 className="mb-5">Breakind Bad Quotes</h2>
 			{
 				loading
 					?
